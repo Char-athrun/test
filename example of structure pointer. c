@@ -16,7 +16,7 @@ int main ()
     strcpy(ptrPlayer->name,"pinball Wizard");
     ptrPlayer->score=1000000.00;
 
-    print("\nPlayer: %s\n",ptrPlayer->name);
-    print("Score: %.0f\n",ptrPlayer->score);
+    printf("\nPlayer: %s\n",ptrPlayer->name);
+    printf("Score: %.0f\n",ptrPlayer->score);
     return 0;
 }
